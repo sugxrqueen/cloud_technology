@@ -1,0 +1,86 @@
+*{box-sizing: border-box;}
+.html{
+    scroll-behavior: smooth;
+}
+/*----- NAVIGATION TABS -----*/
+.navTabs{
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.links{
+    display: inline-block;
+    padding: 0.5em 2em;
+    color: white;
+}
+.links:hover{
+    color: plum;
+    background-color: lightblue;
+    font-weight: bolder;
+}
+/* ----- INTRO IMAGE -----*/
+.intro{
+    box-shadow: 2px 2px 5px gray;
+    margin: 7em auto;
+    border-radius: 2em;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.intro_pg{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    text-align:center;
+    font-size: 2.5em;
+    color: rgb(32, 32, 117);
+    font-weight: 900;
+    font-family: "arial black";
+}
+/* -------- CARDS --------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;
+}
+.cardTitle{
+    padding: 0.5em 1em;
+    color: lightcoral;
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: gray;
+    margin-bottom: 5em;
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color: lightcoral;
+    color: lightblue;
+    display: inline-block;
+    left: 0%;
+    padding: 1em;
+    right: 0%;
+    text-align: center;
+}
+.cardLink:hover{
+    background-color: rgb(231, 170, 170);
+    color: coral;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
