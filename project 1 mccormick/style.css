@@ -1,0 +1,261 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+
+/*-----INTRO WEBSITE-----*/
+
+.background{
+    margin: none;
+}
+.titleQ{
+    background-color: rgb(230, 44, 196);
+    text-align: center;
+    position: absolute;
+    padding: 1em 1em;
+    font-size: 3em;
+    left: 16%;
+    border-radius: 0.5em;
+    font-family: "comic sans ms"
+}
+.img_container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hyperlink{
+    text-align: center;
+    padding: 0.5em 1em;
+    position: absolute;
+    right: 55%;
+    bottom: 2%;
+    left: 5%;
+    color: white;
+    font-size: 2em;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.645);
+    text-decoration: none;
+}
+.hyperlink:hover{
+    background-color: black;
+}
+.hyperlink2{
+    text-align: center;
+    padding: 0.5em 1em;
+    position: absolute;
+    left: 55%;
+    bottom: 2%;
+    right: 5%;
+    color: black;
+    font-size: 2em;
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.568);
+    text-decoration: none;
+}
+.hyperlink2:hover{
+    background-color: whitesmoke;
+}
+.monokuma{
+    position: absolute;
+    width: 15em;
+    top: 40%;
+    left: 42%;
+}
+/*-----LOSE SCREEN-----*/
+.losescreen{
+    font-size: 7em;
+    text-align: center;
+}
+.back-intro-pg{
+    text-align: center;
+    padding: 0.5em 1em;
+    position: absolute;
+    right: 55%;
+    bottom: 2%;
+    left: 5%;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.513);
+    text-decoration: none;
+}
+.back-intro-pg:hover{
+    background-color: black;
+}
+.angry-mono{
+    width: 20em;
+    position: absolute;
+    left: 39%;
+}
+/*----- NAVIGATION TABS -----*/
+
+.navTabs{
+    background-color: rgb(63, 67, 147);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+.links{
+    display: inline-block;
+    padding: 2em 15em;
+    color: white;
+    font-size: large;
+    font-family: "comic sans ms";
+    text-decoration: none;
+}
+.links:hover{
+    color: plum;
+    background-color: rgb(108, 111, 180);
+    font-weight: bolder;
+}
+/* ----- INTRO IMAGE -----*/
+.divider{
+    height: 1em;
+}
+.intro{
+    box-shadow: 2px 2px 5px gray;
+    margin: 7em auto;
+    border-radius: 2em;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    top: 3em;
+    border: ridge 10px rgb(63, 67, 147);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.intro_pg{
+    bottom: 20%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgb(100, 100, 223);
+    color: rgb(252, 252, 254);
+    font-weight: 900;
+    font-family: "comic sans ms";
+    transition: ease-in-out 2s;
+}
+.intro_pg:hover{
+    color: hotpink;
+}
+div#lH{
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    top: 5%;
+    opacity: 0.01;
+}
+audio#aH{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: 2;
+    opacity: 0.01;
+}
+.mono-pg{
+    position: absolute;
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    top: 30%;
+    left: 1%;
+    border: inset hotpink 5px;
+}
+.intro_pg2{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    font-family: "comic sans ms";
+}
+/* -------- CARDS --------*/
+
+.title{
+    border-bottom: ridge 1px darkblue;
+    padding-top: 3em;
+    text-align: center;
+    font-family: "comic sans ms";
+    transition: ease-in-out 2s;
+}
+.title:hover{
+    color: hotpink;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(40, 42, 42);
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: none;
+    background-color: rgb(194, 194, 194);
+}
+.card:hover .cardIntro{
+    color: black;
+    font-weight: 600;
+}
+.card{
+    width: 29%;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;
+}
+.cardTitle{
+    padding: 0.5em 1em;
+    color: black;
+    font-family: "comic sans ms";
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: gray;
+    margin-bottom: 5em;
+    font-family: "comic sans ms";
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(98, 102, 172);
+    color: black;
+    display: inline-block;
+    left: 0%;
+    padding: 1em;
+    right: 0%;
+    text-align: center;
+}
+.cardLink:hover{
+    background-color: rgb(87, 90, 162);
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*------GIFS------*/
+
+.gifs{
+    width: 9.8em;
+    height: 14em;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.music-mono{
+    width: 7em;
+   float: left;
+   position: absolute;
+   left: 10%;
+   top: 15%;
+}
+/*------FOOTER-----*/
+
+.copyrighted{
+    background-color: lightskyblue;
+    text-align: center;
+}
