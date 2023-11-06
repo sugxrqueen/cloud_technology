@@ -1,0 +1,33 @@
+.on-img-btn{
+    position: absolute;
+    left: 17%;
+    top: 160%;
+}
+.on-img-btn2{
+    position: absolute;
+    right: 17%;
+    top: 160%;
+}
+.on-img-text{
+    position: absolute;
+    text-align: center;
+    left: 38%;
+    top: 70%;
+}
+.on-img-text2{
+    position: absolute;
+    text-align: center;
+    left: 38%;
+    top: 345%;
+    background-color: black;
+}
+.on-img-btn3{
+    position: absolute;
+    right: 17%;
+    top: 430%;
+}
+.on-img-btn4{
+    position: absolute;
+    left: 17%;
+    top: 430%;
+}
