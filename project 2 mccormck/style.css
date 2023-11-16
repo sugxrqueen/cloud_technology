@@ -1,0 +1,12 @@
+.vinyl-pic:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+.mn{
+margin-left: 50%;
+}
+.caption{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    font-size: 6em;
+}
