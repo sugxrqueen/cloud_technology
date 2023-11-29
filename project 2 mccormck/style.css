@@ -1,0 +1,131 @@
+.vinyl-pic:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+.mn{
+margin-left: 60%;
+}
+.caption{
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    font-size: 6.5em;
+    transition: ease-in-out 1s;
+}
+.caption:hover{
+    transform: scale(0.6);
+}
+.margin{
+    margin-right: 2.5em;
+}
+.new-img{
+    position: absolute;
+    left: 5%;
+    transition: ease-in-out 1s;
+}
+.new-img:hover{
+    transform: rotate(360deg);
+}
+.mover{
+    top: 20%;
+}
+.hey{
+    top: 50%;
+    position: absolute;
+}
+.cart{
+    top: 39%;
+    right: 2%;
+    position: absolute;
+}
+.search{
+    position: absolute;
+    top: 40%;
+    right:5%;
+}
+.contact{
+    right: 10%;
+    top: 41%;
+    text-decoration: none;
+    position: absolute;
+    color: rgb(170, 170, 170);
+}
+.contact:hover{
+    color: rgb(194, 194, 194);
+}
+.foot-title{
+    font-size: 3em;
+    transition: ease-in-out 2s;
+}
+.newsletter{
+    align-items: center;
+}
+.card{
+    transition: transform .5s;
+    overflow: none;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.item-ajr{
+    background-color: rgb(226, 59, 59);
+}
+.item-lj{
+    background-color: rgb(83, 168, 191);
+}
+.item-mm{
+    background-color: palevioletred;
+}
+.item-patd{
+    background-color: maroon;
+    color: white;
+}
+.item-ajr-hover:hover{
+    background-color: rgb(226, 59, 59);
+}
+.item-lj-hover:hover{
+    background-color: rgb(83, 168, 191);
+}
+.item-mm-hover:hover{
+    background-color: palevioletred;
+}
+.item-patd-hover:hover{
+    background-color: maroon;
+    color: white;
+}
+.text-ajr{
+    color: rgb(226, 59, 59);
+}
+.text-lj{
+    color: rgb(83, 168, 191);
+}
+.text-mm{
+    color: palevioletred;
+}
+.text-patd{
+    color: maroon;
+}
+.bg-ajr{
+    background-color: rgb(226, 59, 59);
+}
+.bg-lj{
+    background-color: rgb(83, 168, 191);
+}
+.bg-mm{
+    background-color: palevioletred;
+}
+.bg-patd{
+    background-color: maroon;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+
