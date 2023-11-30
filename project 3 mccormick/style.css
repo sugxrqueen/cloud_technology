@@ -1,0 +1,13 @@
+.bg-intro{
+    background-color: rgb(141, 84, 194);
+    padding: 10em;
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.crown{
+    margin-left: 60%;
+    }
